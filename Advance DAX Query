@@ -1,1 +1,29 @@
+Here are some advanced DAX questions you can practice in Power BI:
+----------------------------------xxxxxx-----------------------------------------
+Basic Aggregations
+----------------------------------xxxxxxx----------------------------------------
+Question : Total Net Worth of All Billionaires
+Answer : 
+    TotalNetWorth = sum('Billionaires Statistics Dataset - Billionaires Statistics Dataset'[finalWorth])
 
+Question : Average Age of Billionaires
+Answer :
+    AvgAge = AVERAGE('Billionaires Statistics Dataset - Billionaires Statistics Dataset'[age])
+
+Question : Count of Billionaires by Country
+Answer : 
+    BillionairePercountry = COUNTROWS(VALUES('Billionaires Statistics Dataset - Billionaires Statistics Dataset'[country]))
+---------------------------------xxxxxx------------------------------------------
+intermediate DAX calculation
+--------------------------------xxxxxx-------------------------------------------
+Question : Rank Billionaires Based on Net Worth
+Answer : 
+    
+Question : Percentage of Billionaires in Each Industry
+Question : Billionaire Contribution to Country’s GDP
+-----------------------------xxxxxxxx--------------------------------------------
+Advance DAX Formulas
+---------------------------xxxxxxxxxx--------------------------------------------
+Question : Total Net Worth of Self-Made vs. Inherited Billionaires
+Question : Top 5 Billionaires in Each Country
+question : Total Tax Paid by Billionaires in Each Country
